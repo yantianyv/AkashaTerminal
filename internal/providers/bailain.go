@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 	
-	"AkashaTerminal/pkg/types"
+	"github.com/yantianyv/AkashaTerminal/pkg/types"
 )
 
 type BailianProvider struct {

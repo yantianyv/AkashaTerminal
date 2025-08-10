@@ -3,13 +3,7 @@ package providers
 import (
 	"fmt"
 	
-	"AkashaTerminal/pkg/types"
-	"AkashaTerminal/internal/providers/openai"
-	"AkashaTerminal/internal/providers/azure"
-	"AkashaTerminal/internal/providers/deepseek"
-	"AkashaTerminal/internal/providers/bailian"
-	"AkashaTerminal/internal/providers/siliconflow"
-	"AkashaTerminal/internal/providers/custom"
+	"github.com/yantianyv/AkashaTerminal/pkg/types"
 )
 
 // CreateProvider 根据配置创建供应商实例

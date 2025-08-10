@@ -7,6 +7,8 @@ import (
 	"strings"
 	
 	"github.com/fatih/color"
+	"github.com/yantianyv/AkashaTerminal/pkg/types"
+	"github.com/yantianyv/AkashaTerminal/internal/operations"
 )
 
 // UserPrompt 显示用户提示并获取输入

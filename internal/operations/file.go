@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 	
-	"AkashaTerminal/pkg/types"
+	"github.com/yantianyv/AkashaTerminal/pkg/types"
 )
 
 // FileManager 处理所有文件操作

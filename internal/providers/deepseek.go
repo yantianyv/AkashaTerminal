@@ -7,7 +7,7 @@ import (
 	"io"
 	"net/http"
 	
-	"AkashaTerminal/pkg/types"
+	"github.com/yantianyv/AkashaTerminal/pkg/types"
 )
 
 type DeepSeekProvider struct {

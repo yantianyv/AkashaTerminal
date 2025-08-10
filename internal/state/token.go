@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 	
-	"AkashaTerminal/pkg/types"
+	"github.com/yantianyv/AkashaTerminal/pkg/types"
 )
 
 // TokenEstimator 估算文本的 token 数量

@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"AkashaTerminal/pkg/types"
+	"github.com/yantianyv/AkashaTerminal/pkg/types"
 )
 
 const (

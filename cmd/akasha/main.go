@@ -8,12 +8,12 @@ import (
 	"os"
 	"strings"
 	
-	"AkashaTerminal/internal/config"
-	"AkashaTerminal/internal/operations"
-	"AkashaTerminal/internal/providers"
-	"AkashaTerminal/internal/state"
-	"AkashaTerminal/internal/utils"
-	"AkashaTerminal/pkg/types"
+	"github.com/yantianyv/AkashaTerminal/internal/config"
+	"github.com/yantianyv/AkashaTerminal/internal/operations"
+	"github.com/yantianyv/AkashaTerminal/internal/providers"
+	"github.com/yantianyv/AkashaTerminal/internal/state"
+	"github.com/yantianyv/AkashaTerminal/internal/utils"
+	"github.com/yantianyv/AkashaTerminal/pkg/types"
 )
 
 var (
@@ -69,7 +69,7 @@ func main() {
 	// 初始化Token管理
 	tokenMgr := state.NewTokenManager(*maxTokens)
 	
-	fmt.Printf("\n✨ AkashaTerminal v1.0 - 智能代码助手\n")
+	fmt.Printf("\n✨ github.com/yantianyv/AkashaTerminal v1.0 - 智能代码助手\n")
 	fmt.Printf("供应商: %s (%s)\n", provider.GetName(), provider.GetModel())
 	fmt.Println("输入 '/exit' 退出, '/help' 查看帮助")
 	fmt.Println(strings.Repeat("=", 50))
