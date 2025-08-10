@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 	
-	"voidClint/pkg/types"
+	"AkashaTerminal/pkg/types"
 )
 
 // FileManager 处理所有文件操作

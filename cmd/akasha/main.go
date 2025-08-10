@@ -8,12 +8,12 @@ import (
 	"os"
 	"strings"
 	
-	"voidClint/internal/config"
-	"voidClint/internal/operations"
-	"voidClint/internal/providers"
-	"voidClint/internal/state"
-	"voidClint/internal/utils"
-	"voidClint/pkg/types"
+	"AkashaTerminal/internal/config"
+	"AkashaTerminal/internal/operations"
+	"AkashaTerminal/internal/providers"
+	"AkashaTerminal/internal/state"
+	"AkashaTerminal/internal/utils"
+	"AkashaTerminal/pkg/types"
 )
 
 var (
@@ -69,7 +69,7 @@ func main() {
 	// 初始化Token管理
 	tokenMgr := state.NewTokenManager(*maxTokens)
 	
-	fmt.Printf("\n✨ voidClint v1.0 - 智能代码助手\n")
+	fmt.Printf("\n✨ AkashaTerminal v1.0 - 智能代码助手\n")
 	fmt.Printf("供应商: %s (%s)\n", provider.GetName(), provider.GetModel())
 	fmt.Println("输入 '/exit' 退出, '/help' 查看帮助")
 	fmt.Println(strings.Repeat("=", 50))

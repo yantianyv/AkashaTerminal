@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 	
-	"voidClint/pkg/types"
+	"AkashaTerminal/pkg/types"
 )
 
 type BailianProvider struct {

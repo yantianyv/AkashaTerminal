@@ -6,11 +6,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"voidClint/pkg/types"
+	"AkashaTerminal/pkg/types"
 )
 
 const (
-	defaultConfigPath = ".config/voidclint/profiles.json"
+	defaultConfigPath = ".config/akashaterminal/profiles.json"
 )
 
 // ConfigManager 管理所有 API 配置

@@ -3,13 +3,13 @@ package providers
 import (
 	"fmt"
 	
-	"voidClint/pkg/types"
-	"voidClint/internal/providers/openai"
-	"voidClint/internal/providers/azure"
-	"voidClint/internal/providers/deepseek"
-	"voidClint/internal/providers/bailian"
-	"voidClint/internal/providers/siliconflow"
-	"voidClint/internal/providers/custom"
+	"AkashaTerminal/pkg/types"
+	"AkashaTerminal/internal/providers/openai"
+	"AkashaTerminal/internal/providers/azure"
+	"AkashaTerminal/internal/providers/deepseek"
+	"AkashaTerminal/internal/providers/bailian"
+	"AkashaTerminal/internal/providers/siliconflow"
+	"AkashaTerminal/internal/providers/custom"
 )
 
 // CreateProvider 根据配置创建供应商实例

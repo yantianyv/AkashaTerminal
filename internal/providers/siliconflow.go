@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 	
-	"voidClint/pkg/types"
+	"AkashaTerminal/pkg/types"
 )
 
 type SiliconFlowProvider struct {
